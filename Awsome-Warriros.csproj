@@ -78,14 +78,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Models\Maps\Stage2\TasharenWater.cs" />
     <Compile Include="Assets\Scripts\CameraScripts\CameraOrbit.cs" />
     <Compile Include="Assets\Scripts\CameraScripts\CameraZoom.cs" />
     <Compile Include="Assets\Scripts\CameraScripts\MouseLock.cs" />
     <Compile Include="Assets\Scripts\CameraScripts\Orbit.cs" />
     <Compile Include="Assets\Scripts\CameraScripts\SphericalVector.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemyAISystem.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemyAttack.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\EnemyScripts\EnemyHelp.cs" />
+    <Compile Include="Assets\Scripts\Game Managers\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\Menu Script\CharacterMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu Script\MainMenuCamera.cs" />
+    <Compile Include="Assets\Scripts\Menu Script\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\AttackAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\MovementMotor.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PLayerAttack.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Models\Models\City Models\City\Alpha_Texture.shader" />
@@ -118,6 +129,9 @@
     <None Include="Assets\Models\Models\Swords And Items\VignetteShader.shader" />
     <None Include="Assets\Models\Models\Swords And Items\VignettingShader.shader" />
     <None Include="Assets\Models\Skyboxes\Night Skybox\_skybox info.txt" />
+    <None Include="Assets\Village\Effects\Pack 2\Shaders\Distortion\Distortion.shader" />
+    <None Include="Assets\Village\Maps\Stage2\FreeDistortionCullBack.shader" />
+    <None Include="Assets\Village\Shaders\Billboard.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

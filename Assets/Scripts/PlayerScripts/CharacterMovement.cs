@@ -35,18 +35,26 @@ public class CharacterMovement : MonoBehaviour {
 
     private bool isAttacking;
 
+    private GameObject atkPoint;
+
 
     private void Awake()
     {
+
         motor = GetComponent<MovementMotor>();
         anim = GetComponent<Animator>();
     }
 
     // Use this for initialization
     void Start () {
+        
         // ApplyRootMotion there is in animator gui too, mena can change tranform
         anim.applyRootMotion = false;
         mainCamera = Camera.main;
+
+        //sword
+        atkPoint = GameObject.Find("Player Attack Point");
+        atkPoint.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -237,5 +245,17 @@ public class CharacterMovement : MonoBehaviour {
         }
 
         FightAnimation();
+    }
+
+    // event from animation
+    void Attack_Began()
+    {
+        atkPoint.SetActive(true);
+    }
+
+    // event from animation
+    void Attack_End()
+    {
+        atkPoint.SetActive(false);
     }
 }
