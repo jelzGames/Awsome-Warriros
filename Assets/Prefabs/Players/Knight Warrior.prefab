@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 114686914649631392}
   - component: {fileID: 114303050430805254}
   - component: {fileID: 114628650682777784}
+  - component: {fileID: 114431315360134236}
   m_Layer: 9
   m_Name: Knight Warrior
   m_TagString: Player
@@ -5445,6 +5446,7 @@ MonoBehaviour:
   combo_AttackList:
   - 0,1
   combo_Type: 0
+  fireTornado: {fileID: 175744, guid: e5bc8bb50018c46cd9669532417609a0, type: 2}
 --- !u!114 &114307770295296118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5461,6 +5463,21 @@ MonoBehaviour:
     m_Bits: 256
   damage: 1
   radius: 1
+--- !u!114 &114431315360134236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123290}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4649770057b1d3e45a2fec4891561d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSwords:
+  - {fileID: 1483245197044288}
+  - {fileID: 1817995256331280}
+  - {fileID: 1160830797122106}
 --- !u!114 &114628650682777784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5473,6 +5490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  deadFX: {fileID: 186856, guid: e0fdab13dc4124682b7dbaaf7d287db9, type: 2}
 --- !u!114 &114686914649631392
 MonoBehaviour:
   m_ObjectHideFlags: 1

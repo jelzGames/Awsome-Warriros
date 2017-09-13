@@ -11,3 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Village.unity
     guid: 7bb98f7b4f0b0474e8e18a4e30ee51f6
+  - enabled: 1
+    path: Assets/Scenes/OrcWorld.unity
+    guid: 429eddb7d64b6834c842d6319e35c638
+  - enabled: 1
+    path: Assets/Scenes/SkyWorld.unity
+    guid: de0b3e49340c427488880571fd919dbf
+  - enabled: 1
+    path: Assets/Scenes/WolfWorld.unity
+    guid: 503f341c1dd760148b5ec1f662110baa

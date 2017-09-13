@@ -39,9 +39,11 @@ public class CameraOrbit : Orbit {
 
     // Update is called once per frame
     void Update () {
-        HandleCamera();
-        HandleMouseLocking();
-
+        if (playerTarget)
+        {
+            HandleCamera();
+            HandleMouseLocking();
+        }
     }
 
     void HandleCamera()

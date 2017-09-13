@@ -88,15 +88,24 @@
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyHelp.cs" />
+    <Compile Include="Assets\Scripts\FX Scripts\DestroyAfterTime.cs" />
+    <Compile Include="Assets\Scripts\FX Scripts\FireTornado.cs" />
+    <Compile Include="Assets\Scripts\FX Scripts\FXDamage.cs" />
+    <Compile Include="Assets\Scripts\Game Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Game Managers\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\GamePlayScript\BackToVillage.cs" />
+    <Compile Include="Assets\Scripts\GamePlayScript\GameplayController.cs" />
+    <Compile Include="Assets\Scripts\GamePlayScript\OtherWorld.cs" />
     <Compile Include="Assets\Scripts\Menu Script\CharacterMenu.cs" />
     <Compile Include="Assets\Scripts\Menu Script\MainMenuCamera.cs" />
     <Compile Include="Assets\Scripts\Menu Script\MainMenuController.cs" />
+    <Compile Include="Assets\Scripts\People Scripts\PeopleWalk.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\AttackAnimation.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\MovementMotor.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PLayerAttack.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\PlayerStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Models\Models\City Models\City\Alpha_Texture.shader" />
@@ -132,6 +141,13 @@
     <None Include="Assets\Village\Effects\Pack 2\Shaders\Distortion\Distortion.shader" />
     <None Include="Assets\Village\Maps\Stage2\FreeDistortionCullBack.shader" />
     <None Include="Assets\Village\Shaders\Billboard.shader" />
+    <None Include="Assets\Villages2\Effects\Pack 2\Shaders\Distortion\DistortionCullBack+1.shader" />
+    <None Include="Assets\Villages2\Effects\Pack 2\Shaders\Distortion\DistortionCullOff.shader" />
+    <None Include="Assets\Villages2\Effects\Pack 2\Shaders\Distortion\DistortionParticlesCutout.shader" />
+    <None Include="Assets\Villages2\Effects\Pack 2\Shaders\GlowAdditiveSimple.shader" />
+    <None Include="Assets\Villages2\Effects\Pack 2\Shaders\GlowAdditiveTwoColor.shader" />
+    <None Include="Assets\Villages2\Maps\JungleGarden\2-sided Alpha Cutout.shader" />
+    <None Include="Assets\Villages2\Maps\Stage2\FreeDistortionCullOff.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

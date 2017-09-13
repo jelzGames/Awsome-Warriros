@@ -42,7 +42,7 @@ public class EnemyAISystem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        EnemyAI();
+         EnemyAI();
 
     }
 

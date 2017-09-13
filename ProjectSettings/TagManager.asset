@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Inventory
   - Enemy
+  - Elevator
+  - SpawnPosition
+  - Wall
+  - SwordBtn
   layers:
   - Default
   - TransparentFX
