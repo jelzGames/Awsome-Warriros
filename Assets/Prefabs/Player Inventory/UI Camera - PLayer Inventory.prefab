@@ -506,7 +506,7 @@ GameObject:
   - component: {fileID: 92691017082654270}
   m_Layer: 0
   m_Name: UI Camera - PLayer Inventory
-  m_TagString: Untagged
+  m_TagString: CameraInventory
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 114677647229879394}
   - component: {fileID: 114174611329725230}
   m_Layer: 0
-  m_Name: Item
+  m_Name: Items
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

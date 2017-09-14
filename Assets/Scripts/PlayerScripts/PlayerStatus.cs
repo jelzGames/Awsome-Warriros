@@ -8,10 +8,11 @@ public class PlayerStatus : MonoBehaviour {
     public GameObject[] playerSwords;
 
     private GameObject itemsPanel;
-
-	// Use this for initialization
-	void Start () {
+    
+    private void Start()
+    {
         GameObject[] buttons = GameObject.FindGameObjectsWithTag("SwordBtn");
+        
 
         foreach (GameObject btn in buttons)
         {
@@ -20,14 +21,16 @@ public class PlayerStatus : MonoBehaviour {
 
         itemsPanel = GameObject.Find("Items Panel");
         itemsPanel.SetActive(false);
-        GameObject.Find("Item").GetComponent<Button>().onClick.AddListener(ActivateItemsPanel);
+        
+        GameObject.Find("Items").GetComponent<Button>().onClick.AddListener(ActivateItemsPanel);
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
-
+    
     public void ActivateItemsPanel()
     {
         if (itemsPanel.activeInHierarchy)

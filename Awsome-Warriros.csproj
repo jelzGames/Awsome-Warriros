@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\FX Scripts\FireTornado.cs" />
     <Compile Include="Assets\Scripts\FX Scripts\FXDamage.cs" />
     <Compile Include="Assets\Scripts\Game Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Game Managers\GameOverManager.cs" />
     <Compile Include="Assets\Scripts\Game Managers\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\GamePlayScript\BackToVillage.cs" />
     <Compile Include="Assets\Scripts\GamePlayScript\GameplayController.cs" />

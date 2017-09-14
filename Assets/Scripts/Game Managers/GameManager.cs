@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
     public int selectedCharacterIndex;
 
     public GameObject playerInventory;
+    public GameObject playerGameOver;
 
     private void Awake()
     {
@@ -52,6 +53,12 @@ public class GameManager : MonoBehaviour {
             Vector3 pos = GameObject.FindGameObjectWithTag("SpawnPosition").transform.position;
             Instantiate(characters[selectedCharacterIndex], pos, Quaternion.identity);
         }
+    }
+
+    public void GameOver()
+    {
+        DestroyObject(GameObject.FindGameObjectWithTag("CameraInventory"));
+        Instantiate(playerGameOver, Vector3.zero, Quaternion.identity);
     }
 
     // Use this for initialization

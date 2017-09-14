@@ -647,6 +647,8 @@ MonoBehaviour:
   selectedCharacterIndex: 0
   playerInventory: {fileID: 1951193211982128, guid: 6f9327426f6fbaf4897f83a54657d1a5,
     type: 2}
+  playerGameOver: {fileID: 1831786333829568, guid: 7a3bd3014f9ce464db1dbc2a3d45b7c0,
+    type: 2}
 --- !u!4 &201949063
 Transform:
   m_ObjectHideFlags: 0
